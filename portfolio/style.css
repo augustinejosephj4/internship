@@ -1,0 +1,65 @@
+.center {
+    background-color: rgb(7, 145, 224);
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Horizontal Center */
+    align-items: center; /* Vertical Center */
+    height: 60px; /* Navbar height */
+    gap: 35px; /* Space between links */
+}
+
+.center a {
+    color: blue;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px 15px; /* Padding for clickable area */
+    transition: 0.3s;
+}
+
+.main{
+    color: cadetblue;
+    text-align: left;
+ 
+}
+
+#color{
+    color: black;
+}
+
+
+#heading{
+    text-align: center;
+    
+
+}
+
+.portfolio{
+    color: forestgreen;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(126, 235, 237);
+     height: 70px
+}
+
+
+
+
+profile-section img {
+    width: 100px; 
+    height: auto;
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.about-details {
+    max-width: 400px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: flex-start; /* Align top */
+    justify-content: center;
+    gap: 30px; /* Space between image and text */
+    padding: 20px;
+}
