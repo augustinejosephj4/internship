@@ -1,0 +1,9 @@
+ul{
+    color: whitesmoke;
+    background-color: rgb(3, 70, 108);
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+}
