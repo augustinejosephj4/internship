@@ -1,0 +1,15 @@
+<div class="bgimg">
+<div class="container mt-4">
+  <h2 style="color: rgb(236, 229, 13);">Your Cart</h2>
+  <div *ngIf="cartItems.length === 0">
+    <p   style="color: rgb(236, 229, 13);">Your cart is empty.</p>
+  </div>
+  <ul class="list-group" *ngIf="cartItems.length > 0">
+    <li class="list-group-item" *ngFor="let item of cartItems">
+        <img [src]="item.image" alt="{{ item.title }}" style="width: 60px; height: 60px; object-fit: cover;">
+
+      {{ item.title }} -  ${{ item.price }}
+    </li>
+  </ul>
+</div>
+</div>

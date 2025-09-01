@@ -1,0 +1,42 @@
+<ul class="nav align-items-center gap-3 list-unstyled">
+  
+  <li>
+    <img src="https://www.swift-kart.com/images/swiftkart-logo.png"
+         alt="SwiftKart Logo"
+         class="img-fluid rounded"
+         style="width: 130px; height: 30px;">
+  </li>
+
+  
+  <li class="nav-item">
+    <button class="btn outline-primary"  routerLink="">
+  <i class="bi bi-cart-fill"></i> Home
+</button>
+  </li>
+  <li class="nav-item">
+    <button class="btn outline-primary" routerLink="about" >
+  <i class="bi bi-cart-fill"></i> About Us
+</button>
+  </li>
+
+  <li class="nav-item">
+  <div class="input-group">
+    <input type="text"
+           class="form-control"
+           placeholder="Search products..."
+           [(ngModel)]="searchQuery">
+    <button class="btn btn-outline-primary" (click)="onSearch()">SEARCH
+      <i class="bi bi-search"></i>
+    </button>
+  </div>
+</li>
+
+
+  
+<li>
+  <button class="btn outline-primary" routerLink="cart">
+    <i class="bi bi-cart-fill"></i> 🛒 Cart
+  </button>
+</li>
+
+</ul>
